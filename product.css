@@ -12,3 +12,9 @@
     
 }
 
+.big-container{
+    display:flex;
+}
+.categories-container{
+    display:inline-flex;
+}
