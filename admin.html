@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/adminStyle.css">
+    <title>Add Products</title>
+</head>
+<body>
+    
+    <form class="addProductForm" action="" method="post">
+        <h1>
+            please enter your new product here
+        </h1>
+        <div id="divProduct">
+            <label for="productID" id="labProduct"><h3>Product Name:</h3></label>
+            <input type="text" name="productName" id="productID" placeholder="Product name" required>
+        </div>
+
+        <div id="category">
+            <h3>Category</h3>
+            <div id="fradio">
+                <label for="fruitID">Fruit</label>
+                <input type="radio" id="fruitID" name="category" value="fruit">  
+            </div> 
+            <div id="vradio">
+                <label for="vegetableID">Vegetable</label>
+                <input type="radio" id="vegetableID" name="category" value="vegetable"> 
+            </div>
+            <div id="mradio">
+                <label for="meatID">Meat</label>
+                <input type="radio" id="meatID" name="category" value="meat"> 
+            </div>
+            <div id="dradio">
+                <label for="dairyID">Dairy</label>
+                <input type="radio" id="dairyID" name="category" value="dairy">
+            </div>        
+        </div>
+
+        <div id="imgUpload">
+            <label for="img" id="imgLAb"><h3>Select image:</h3></label>
+            <input type="file" id="img" name="img" accept="image/*">
+        </div>
+
+        <div class="qtPrice">
+            <div id="quantity">
+                <label for="quantityID" id="qtLab"><h3>Quantity:</h3></label>
+                <!-- we can add product with min of zero just to reserve it's place for future use -->
+                <input type="number" name="quantity" id="quantityID" placeholder="0" min="0" max="50" required>   
+            </div>
+    
+            <div id="price">
+                <label for="priceID" id="priceLab"><h3>Price:</h3></label>
+                <!-- we can add product with min of zero just to reserve it's place for future use -->
+                <input type="number" name="quantity" id="priceLab" placeholder="0" min="0" max="200" required>   
+            </div>
+        </div>
+
+        
+
+        <div id="unit">
+            <h3 id="unitTitle">Unit</h3>
+            <div id="poundradio">
+                <label for="poundID">Pound</label>
+                <input type="radio" id="pounrID" name="unit" value="pound">  
+            </div> 
+            <div id="poundradio">
+                <label for="eachID">Each</label>
+                <input type="radio" id="eachID" name="unit" value="each"> 
+            </div>
+            <div id="poundradio">
+                <label for="literID">Litre</label>
+                <input type="radio" id="literID" name="unit" value="litre"> 
+            </div>
+            <div id="poundradio">
+                <label for="dozenID">Dozen</label>
+                <input type="radio" id="dozenID" name="unit" value="dozen">
+            </div>        
+        </div>
+
+        <div id="description">
+            <label for="descriptionID" id="h3Description"><h3>Description:</h3></label>
+            <textarea rows="4" cols="30" name="comment" form="" id="descriptionID" required>Enter your description here...</textarea>
+        </div>
+                   <!-- reset button to clear form before submit in case of mistakes  -->
+        <button type="reset" id="reset">Reset</button>               
+        <button type="submit" id ="submit">Submit</button>
+    </form>
+</body>
+</html>
