@@ -1,0 +1,64 @@
+
+.addProductForm{
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(28, 96, 214, 0.493);
+    text-align: center;
+    box-shadow: 10px 10px 5px 12px grey;
+}
+
+
+.addProductForm #divProduct #labProduct,#productID{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.addProductForm #category #unitTitle,#fradio, #vradio,#mradio, #dradio{
+    display: inline-block;
+    position: relative;
+}
+.qtPrice{
+    display: flex;
+    padding: 0px 20%;
+}
+.qtPrice #quantityID #priceLab{
+    /* width  */
+}
+.addProductForm #quantity #qtLab, #quantityID{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+.addProductForm #price #priceLab, #priceLab{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+.addProductForm #quantity #price {
+    display: inline-block;
+}
+
+.addProductForm #imgUpload #imgLAb, #img{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.addProductForm #unit #poundradio, #litreradio,#dozenradio, #eachadio{
+    display: inline-block;
+    position: relative;
+}
+
+.addProductForm #description #h3Description, #descriptionID {
+    /* display: inline-flex; */
+}
+
+.addProductForm #reset, #submit {
+    padding: 10px 20px;
+    font-size: medium;
+}
