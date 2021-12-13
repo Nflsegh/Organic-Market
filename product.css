@@ -1,13 +1,15 @@
 .body{
-    background-image: url("./Product_image/bbbbb.jpg");
+    background-color: orange;
+    font-family: 'Corinthia', cursive;
+    font-weight: bolder;
 }
 #product-header{
     text-align: center;
     color:green;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
+    
+   
 }
-.big-container{
+/* .big-container{
     display:flex;
 }
 .categories-container{
@@ -15,7 +17,7 @@
 }
 .right-container{
     vertical-align: middle;
-}
+} */
 .card{
   border:none;
   outline:none;
@@ -37,5 +39,6 @@
 }
 .btn{
     background-color: lightgreen;
-    color:green
+    color:green;
+    
 }
