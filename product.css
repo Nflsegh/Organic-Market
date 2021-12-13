@@ -1,20 +1,44 @@
-
+.body{
+    background-color: orange;
+    font-family: 'Corinthia', cursive;
+    font-weight: bolder;
+}
 #product-header{
     text-align: center;
     color:green;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.btn{
-    background-color:lightgreen;
-    color:green;
-
     
+   
 }
-
-.big-container{
+/* .big-container{
     display:flex;
 }
 .categories-container{
     display:inline-flex;
+}
+.right-container{
+    vertical-align: middle;
+} */
+.card{
+  border:none;
+  outline:none;
+  border-radius: 20px;  
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3sec;
+}
+.card-text{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn{
+    background-color: lightgreen;
+    color:green;
+    
 }
