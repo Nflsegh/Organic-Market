@@ -13,6 +13,14 @@ a {
   
 }
 
+.marinBtn{
+    display: flex;
+    justify-content: center;
+}
+.navText {
+    color: black !important;
+}
+
 .iconBar {
     width: 30px;
     height: 30px;
