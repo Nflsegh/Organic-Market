@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstBar {
+    box-sizing: border-box;
+    background-color: lavenderblush;
+  
+}
+
+.iconBar {
+    width: 30px;
+    height: 30px;
+}
+
+.navMainCont {
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBody {
+    display: block;
+    margin-bottom: 20%;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+.productBtn {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.mainText {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
